@@ -1,0 +1,23 @@
+{
+  "name": "basic-offline-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Mikel Severson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "lodash": "^4.5.1",
+    "mongoose": "^4.4.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.0",
+    "gulp": "^3.9.0",
+  }
+}
